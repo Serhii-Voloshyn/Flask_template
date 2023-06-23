@@ -3,7 +3,5 @@
 
 source venv/bin/activate
 
-export MSP_DOCKER_IP=${MSP_DOCKER_IP:-10.2.2.144}
-
 make check
 make coverage
